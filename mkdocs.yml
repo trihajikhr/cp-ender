@@ -1,0 +1,139 @@
+site_name: Ender CP
+site_url: https://github.com/trihajikhr/cp-ender
+site_description: 'just a small site for learning CP everywhere!'
+
+theme:
+  language: id
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        name: Dark mode
+        icon: material/weather-sunny
+      primary: green
+      accent: blue
+    - scheme: default
+      toggle:
+        name: Light mode
+        icon: material/weather-night
+      primary: deep-purple
+      accent: blue
+  features:
+    - navigation.path
+    - navigation.top
+    #    - navigation.tabs
+    - navigation.tracking
+    - navigation.footer
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    - content.footnote.tooltips
+    - content.tooltips
+    - search.suggest
+    #    - toc.integrate
+    - toc.follow
+    - search.highlight
+    - search.share
+    - announce.dismiss
+  logo: logo-icon/logo.png
+  favicon: logo-icon/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/trihajikhr/cp-ender
+repo_name: trihajikhr/cp-ender
+#copyright: >
+#  Copyright © 2025 by <a href="https://github.com/trihajikhr">trihajikhr</a>.
+#  Licensed under MIT.<br/>
+#  Made with ❤️.
+copyright: >
+  Copyright © 2025 by <a href="https://github.com/trihajikhr">Trihaji Khoerur Rohman</a>.
+  Licensed under MIT.<br/>
+  Made with ❤️.
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.blocks.caption
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - abbr
+  - meta
+  - toc:
+      permalink: true
+      title: On this page
+      permalink_title: Anchor link to this section for reference
+      toc_depth: 3
+
+extra_javascript:
+  - javascript/consent.js
+  - https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  #  - mkdocs-simple-hooks:
+  #      hooks:
+  #        on_env: "hooks:on_env"
+  - glightbox
+  - search
+  - tags
+  - literate-nav:
+      nav_file: navigation.md
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enabled: true
+  - git-authors
+  - git-committers:
+      repository: trihajikhr/cp-ender
+      docs_path: docs/
+      token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
+      enabled: false
+      branch: main
+  #  - macros
+  - rss:
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/trihajikhr
+    - icon: simple/rss
+      link: feed_rss_created.xml
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
