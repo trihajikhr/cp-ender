@@ -19,4 +19,3 @@ This repository is intended to:
 - The materials are temporary.
 - They do not represent the full learning source.
 - The structure may change at any time.
-
