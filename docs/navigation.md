@@ -13,3 +13,6 @@ search:
 - Atcoder
     - [A-Robot Balance](atcoder/abc431/A-robot-balance.md)
     - [B-Robot Weigt](atcoder/abc431/B-robot-weigt.md)
+- Codeforces
+    - [1559C-Mocha and Hiking](codeforces/1559C-mocha-and-hiking.md)
+    - 
