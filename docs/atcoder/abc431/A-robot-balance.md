@@ -43,7 +43,7 @@ Berikut contoh kode.
 
 ### Contoh kode menggunakan `if` statement
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main() {
@@ -58,7 +58,7 @@ int main() {
 }
 ```
 
-```
+```py
 H, B = map(int, input().split())
 if H <= B: # Jika head weight lebih kecil atau sama dengan body weight,
     print(0) # cetak 0
@@ -81,7 +81,7 @@ mencetak `max(H, B) − B`.
 
 Masalah ini dapat diselesaikan dengan menerapkan ekspresi tersebut.
 
-```
+```cpp
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -93,7 +93,7 @@ int main() {
 }
 ```
 
-```
+```py
 H, B = map(int, input().split())
 print(max(H, B) - B)
 ```
