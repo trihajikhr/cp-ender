@@ -5,10 +5,10 @@ on:
   workflow_dispatch:
 
 # workflow otomatis
-#  push:
-#    branches:
-#      - master
-#      - main
+  push:
+    branches:
+      - master
+      - main
 permissions:
   contents: write
 jobs:
