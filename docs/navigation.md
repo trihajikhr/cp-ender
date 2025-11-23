@@ -15,4 +15,4 @@ search:
     - [B-Robot Weigt](atcoder/abc431/B-robot-weigt.md)
 - Codeforces
     - [1559C-Mocha and Hiking](codeforces/1559C-mocha-and-hiking.md)
-    - 
+    - [1996C-Sort](codeforces/1996C-Sort.md)
