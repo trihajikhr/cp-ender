@@ -21,3 +21,5 @@ search:
     - [From Newbie to Expert in 3 Months - 100% works!](deliberate-practice/From%20Newbie%20to%20Expert%20in%203%20Months%20-%20100%25%20works%21.md)
     - [Instead, Do These! If you want to get out of Newbie...](deliberate-practice/Instead%2C%20Do%20These%21%20If%20you%20want%20to%20get%20out%20of%20Newbie....md)
     - [Never Do these! If you want to get out of Newbie](deliberate-practice/Never%20Do%20these%21%20If%20you%20want%20to%20get%20out%20of%20Newbie.md)
+- Tree
+    - [Fenwick](Tree/fenwick_tree.md)
