@@ -1,3 +1,4 @@
+# Fenwick Tree
 
 Misalkan $f$ adalah suatu operasi grup (fungsi asosiatif biner pada suatu himpunan dengan elemen identitas dan elemen invers) dan $A$ adalah sebuah array berisi bilangan bulat sepanjang $N$. Nyatakan notasi infiks dari $f$ sebagai $*$; yaitu, $f(x,y) = x*y$ untuk bilangan bulat $x,y$ sembarang. (Karena bersifat asosiatif, kita akan mengabaikan tanda kurung untuk urutan penerapan $f$ saat menggunakan notasi infiks.)
 
@@ -212,7 +213,6 @@ struct FenwickTree2D {
 };
 ```
 
-Berikut adalah terjemahan teks tersebut beserta *pseudo-code*-nya ke dalam kode C++:
 
 ### One-based indexing approach
 
@@ -285,7 +285,6 @@ struct FenwickTreeOneBasedIndexing {
 };
 ```
 
-Berikut adalah terjemahan materi dan *pseudo-code* di atas langsung ke dalam implementasi kode C++:
 
 ## Range operations
 
